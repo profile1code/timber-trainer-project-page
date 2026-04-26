@@ -65,3 +65,16 @@ a {
     color: #4da6ff;
     text-decoration: none;
 }
+
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
