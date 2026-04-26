@@ -1,11 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const isInPagesFolder = window.location.pathname.includes("/pages/");
-
-  const footerPath = isInPagesFolder
-    ? "../components/footer.html"
-    : "components/footer.html";
-
-  fetch(footerPath)
+  fetch("../components/footer.html")
     .then(res => res.text())
     .then(data => {
       document.body.insertAdjacentHTML("beforeend", data);
